@@ -32,3 +32,34 @@ zir.style.right="11.8rem"
 setTimeout(()=>{
 alert("با سلام باتوجه یه وقت کم رویداد این برنامه برای موبایل های با عرض491 پیکسل مناسب است در غیر این صورت جای المان ها به هم میریزد")
 },1500)
+
+
+
+
+
+let s1=document.getElementById("s1")
+let s2=document.getElementById("s2")
+let s3=document.getElementById("s3")
+
+
+setInterval(()=>{
+s2.style.opacity="0"
+s3.style.opacity="0"
+s1.style.opacity="100%"
+
+},3000)
+
+
+
+setInterval(()=>{
+s2.style.opacity="100%"
+s3.style.opacity="0"
+s1.style.opacity="0"
+
+},6000)
+setInterval(()=>{
+s3.style.opacity="100%"
+s2.style.opacity="0"
+s1.style.opacity="0"
+
+},9000)
