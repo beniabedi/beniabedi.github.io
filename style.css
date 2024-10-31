@@ -10,7 +10,9 @@ body{
  
  
 }
-
+button{
+  z-index: 10;
+}
 .bord{
   position: absolute;
   width: 100%;
