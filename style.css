@@ -10,9 +10,7 @@ body{
  
  
 }
-button{
-  z-index: 10;
-}
+
 .bord{
   position: absolute;
   width: 100%;
@@ -1191,4 +1189,33 @@ border: transparent;
   top: 119rem;
   height: 18rem;
   transition: 1s;
+}
+button{
+  z-index: 10;
+}
+.uplode{
+  position: absolute;
+  top: 173rem;
+  width: 29rem;
+  background: #9C27B0;
+  height: 4rem;
+  border: 0;
+  border-radius: 1rem;
+  font-family: 'vazir';
+  font-size: 26px;
+  color: white;
+  right: 14px;
+}
+
+.title-aplod{
+  position: absolute;
+    top: 140rem;
+    font-size: 20px;
+    right: 12rem;
+}
+.up{
+  position: absolute;
+    width: 28rem;
+    top: 144rem;
+    right: 21px;
 }
